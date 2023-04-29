@@ -5,22 +5,28 @@
 12821 -> да
 23432 -> да */
 
-Console.Write("Enter your 5-digits number: ");
-int numPoly = Convert.ToInt32(Console.Read());
+//Console.Write("Enter your 5-digits number: ");
+//int numPoly = Convert.ToInt32(Console.Read());
 
+int num = 11511;
+int palindrome = 0;
+int temp = num;
 
-
-
-
-
-
-
-
-
-
-
-
-
+while (temp != 0)
+{
+    int remainder = temp % 10; 
+    Console.WriteLine(remainder);
+    palindrome = palindrome*10 + remainder;
+    temp /= 10 ;
+}
+if (num == palindrome)
+{
+    Console.WriteLine("Число {0} является палиндромом. ", num);
+}
+else
+{
+    Console.WriteLine("Число {0} не является палиндромом. ", num);
+}
 
 //___________________________________________________________________________________________________________________
 /* Задача 21
