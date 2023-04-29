@@ -6,7 +6,7 @@
 23432 -> да */
 
 //Console.Write("Enter your 5-digits number: ");
-//int numPoly = Convert.ToInt32(Console.Read());
+//double num = Convert.ToInt32(Console.Read());
 
 int num = 11511;
 int palindrome = 0;
@@ -14,10 +14,9 @@ int temp = num;
 
 while (temp != 0)
 {
-    int remainder = temp % 10; 
-    Console.WriteLine(remainder);
-    palindrome = palindrome*10 + remainder;
-    temp /= 10 ;
+    int remainder = temp % 10;                // 1    1    5     1    1
+    palindrome = palindrome*10 + remainder;   // 1    11   115   1151 11511
+    temp /= 10 ;                              // 1151 115  11    1    0
 }
 if (num == palindrome)
 {
