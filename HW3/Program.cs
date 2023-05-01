@@ -5,9 +5,8 @@
 12821 -> да
 23432 -> да */
 
-//Console.Write("Enter your 5-digits number: ");
-//double num = Convert.ToInt32(Console.Read());
 
+/*
 int num = 11511;
 int palindrome = 0;
 int temp = num;
@@ -26,7 +25,28 @@ else
 {
     Console.WriteLine("Число {0} не является палиндромом. ", num);
 }
+*/
 
+Console.Write("Enter your 5-digits number: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+int palindrome = 0;
+int temp = num;
+
+while (temp != 0)
+{
+    int remainder = temp % 10;                // 1    1    5     1    1
+    palindrome = palindrome*10 + remainder;   // 1    11   115   1151 11511
+    temp /= 10 ;                              // 1151 115  11    1    0
+}
+if (num == palindrome)
+{
+    Console.WriteLine("Число {0} является палиндромом. ", num);
+}
+else
+{
+    Console.WriteLine("Число {0} не является палиндромом. ", num);
+}
 //___________________________________________________________________________________________________________________
 /* Задача 21
 Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
