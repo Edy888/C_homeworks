@@ -1,0 +1,15 @@
+C:\Users\z0045nsk\Desktop\C_HomeWork\HW4\obj\Debug\net6.0\HW4.csproj.AssemblyReference.cache
+C:\Users\z0045nsk\Desktop\C_HomeWork\HW4\obj\Debug\net6.0\HW4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\z0045nsk\Desktop\C_HomeWork\HW4\obj\Debug\net6.0\HW4.AssemblyInfoInputs.cache
+C:\Users\z0045nsk\Desktop\C_HomeWork\HW4\obj\Debug\net6.0\HW4.AssemblyInfo.cs
+C:\Users\z0045nsk\Desktop\C_HomeWork\HW4\obj\Debug\net6.0\HW4.csproj.CoreCompileInputs.cache
+C:\Users\z0045nsk\Desktop\C_HomeWork\HW4\bin\Debug\net6.0\HW4.exe
+C:\Users\z0045nsk\Desktop\C_HomeWork\HW4\bin\Debug\net6.0\HW4.deps.json
+C:\Users\z0045nsk\Desktop\C_HomeWork\HW4\bin\Debug\net6.0\HW4.runtimeconfig.json
+C:\Users\z0045nsk\Desktop\C_HomeWork\HW4\bin\Debug\net6.0\HW4.dll
+C:\Users\z0045nsk\Desktop\C_HomeWork\HW4\bin\Debug\net6.0\HW4.pdb
+C:\Users\z0045nsk\Desktop\C_HomeWork\HW4\obj\Debug\net6.0\HW4.dll
+C:\Users\z0045nsk\Desktop\C_HomeWork\HW4\obj\Debug\net6.0\refint\HW4.dll
+C:\Users\z0045nsk\Desktop\C_HomeWork\HW4\obj\Debug\net6.0\HW4.pdb
+C:\Users\z0045nsk\Desktop\C_HomeWork\HW4\obj\Debug\net6.0\HW4.genruntimeconfig.cache
+C:\Users\z0045nsk\Desktop\C_HomeWork\HW4\obj\Debug\net6.0\ref\HW4.dll
