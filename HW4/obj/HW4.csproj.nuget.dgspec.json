@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\z0045nsk\\Desktop\\C_HomeWork\\HW4\\HW4.csproj": {}
+    "C:\\Users\\Alina\\Desktop\\ED\\C_HW\\HW4\\HW4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\z0045nsk\\Desktop\\C_HomeWork\\HW4\\HW4.csproj": {
+    "C:\\Users\\Alina\\Desktop\\ED\\C_HW\\HW4\\HW4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\z0045nsk\\Desktop\\C_HomeWork\\HW4\\HW4.csproj",
+        "projectUniqueName": "C:\\Users\\Alina\\Desktop\\ED\\C_HW\\HW4\\HW4.csproj",
         "projectName": "HW4",
-        "projectPath": "C:\\Users\\z0045nsk\\Desktop\\C_HomeWork\\HW4\\HW4.csproj",
-        "packagesPath": "C:\\Users\\z0045nsk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\z0045nsk\\Desktop\\C_HomeWork\\HW4\\obj\\",
+        "projectPath": "C:\\Users\\Alina\\Desktop\\ED\\C_HW\\HW4\\HW4.csproj",
+        "packagesPath": "C:\\Users\\Alina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alina\\Desktop\\ED\\C_HW\\HW4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\z0045nsk\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Alina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
