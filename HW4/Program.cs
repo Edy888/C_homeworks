@@ -22,41 +22,53 @@ Console.WriteLine ("Enter num B:");
 int nB = Convert.ToInt32(Console.ReadLine()) ;
 
 NaturalVal (nA, nB);
-
-
 */
+
 
 // Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе////////////////////////////////////////////////////////////////////////////////////////////////
 // 452 -> 11
 // 82 -> 10
 // 9012 -> 12
 
-
+/*
 void NumSum (int valueX)
 {
-    int whole = 1 ;
     int remainder = 0 ;
-    int save_n = 0 ;
-    while (whole != 0)
+    int sum_X = 0 ;
+    while(valueX != 0 )
     {
-        whole = valueX / 10;
         remainder = valueX % 10 ;
-        save_n = remainder + save_n ;
+        sum_X += remainder ;
+        valueX /= 10 ;
     }
-Console.WriteLine(save_n);
+Console.WriteLine(sum_X);
 }
 
 Console.WriteLine ("Enter your number_X : ");
 int NumX = Convert.ToInt32(Console.ReadLine());
 
 NumSum(NumX);
-
-/*
-int x = 224 ;
-int y = 5 ;
-int whole = x / y ; 
-int rema = x % y ;
-
-Console.WriteLine($"Whole is {whole}");
-Console.WriteLine($"Rem is {rema}");
 */
+
+
+// Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран./////////////////////////////
+// 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
+// 6, 1, 33 -> [6, 1, 33]
+
+int [] Create_Ar ()
+{
+    int [] arr_eight = new int [8] ;
+    for(int i = 0; i < 8; i++)
+        arr_eight[i] = new Random().Next() ;   
+    return(arr_eight) ;
+}
+void Show_arr_eight (int [] arr_eight)
+{
+    for (int i = 0 ; i < arr_eight.Length ; i ++)
+    {
+    Console.Write(arr_eight [i] + "_");
+    }
+}
+
+int [] arrayNew = Create_Ar();
+Show_arr_eight(arrayNew);
