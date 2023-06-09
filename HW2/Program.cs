@@ -13,7 +13,5 @@ if (number < 100 || number >= 1000)
     return;
 }
 
-Console.WriteLine($" Enter value `{number}`");
+Console.WriteLine($" Enter value {number}");
 int secondRank = number / 10 % 10;
-
-Console.WriteLine($"DSecond number `{secondRank}`" );
