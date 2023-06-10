@@ -1,4 +1,7 @@
-﻿// ЗАДАЧА 54: Задайте двумерный массив и напишите программу, которая упорядочет по убыванию элементы каждой строки двумерного массива._____________________________
+﻿using System;
+using System.Globalization;
+using System.Collections.Generic;
+// ЗАДАЧА 54: Задайте двумерный массив и напишите программу, которая упорядочет по убыванию элементы каждой строки двумерного массива._____________________________
 
 /*
 Console.WriteLine("Enter count of Rows:  ");
@@ -170,7 +173,7 @@ else
 //______________________________________________________________________________________________________________________________________________________________
 
 // Задача 58. Задайте 2-е матрицы. Напишите программу, которая будет находить произведения 2-х матриц.
-
+/*
 int [,] matrix1 = {{2,3,5}, {3,3,5}, {3,4,23}};
 int [,] matrix2 = {{3,6,8}, {11,2,22},{13,4,88}};
 
@@ -218,3 +221,113 @@ Console.WriteLine("Matrix2 is below: ");
 ShowDF(matrix2);
 Console.WriteLine("Result (Matrix3) is below: ");
 ShowDF(resultMatrix3);
+
+_______________________________________________________________________________________________________________________________________________________________________________
+
+*/
+// Задача 60. Сформируйте трехмерный массив из неповторяющихся двузначных чисел. Напишите программу, которая будет построчно выодить массив, добавляя индексы каждого элемента.
+
+/*
+int [,,] Createarray3D ()
+{
+    Random random = new Random();
+    int [,,] created3DDF = new int[2,2,2];
+    List<int> usedNumbers = new List<int>();
+
+    for (int i = 0; i < created3DDF.GetLength(0); i++)
+    {
+        for (int j = 0; j < created3DDF.GetLength(1); j++)
+        {
+            for (int k = 0; k < created3DDF.GetLength(2); k++)
+            {
+                int number;
+                do
+                {
+                    number =  random.Next (10, 100);
+                } while(usedNumbers.Contains(number));
+                created3DDF[i, j, k] = number;
+                usedNumbers.Add(number);
+            }
+        }
+    }
+    return created3DDF;
+}
+
+
+void Print3DDF (int [,,] dataFrame3D)
+{
+    for (int i = 0; i < dataFrame3D.GetLength(0); i++)
+    {
+        for (int j = 0; j < dataFrame3D.GetLength(1); j++)
+        {
+            for (int k = 0; k < dataFrame3D.GetLength(2); k++)
+            {
+                Console.Write($"{dataFrame3D[i,j,k]}({i},{j},{k})  ");
+            }
+        }
+    }
+}
+
+
+    int [,,] array3D = Createarray3D();
+    Print3DDF(array3D);
+    ____________________________________________________________________________________________________________________________________________________
+*/
+
+// Задача 62. Напишите программу, которая заполнит спирально массив 4*4.
+
+
+/*
+void FillSpiralArray ()
+{
+    int [,] createdDF = new int[4,4];
+
+    int value = 1;
+
+    int rowStart = 0 ;
+    int rowEnd = 3 ;
+    int colStart = 0 ;
+    int colEnd = 3 ;
+
+   
+    while(rowStart <= rowEnd && colStart <= colEnd)
+    {
+
+        for (int col = colStart ; col <= colEnd ; col++) //первая строка (вправо)
+        {
+            createdDF[rowStart, col] = value++;
+        }
+        rowStart++;
+
+        for (int row = rowStart; row <= rowEnd ; row++) // правый столбец (вниз)
+        {
+            createdDF[row, colEnd] = value++;
+        }
+        colEnd--;
+
+        for(int col =  colEnd; col >= colStart ; col--) // нижняя строка (влево)
+        {
+            createdDF[rowEnd, col] = value++;
+        }
+        rowEnd--;
+
+        for (int row = rowEnd; row >= rowStart; row--) // первый столбец (вверх)
+        {
+            createdDF[row,colStart] = value++;
+        }
+        colStart++;
+    }
+        for (int row = 0; row <4; row++)
+        {
+            for(int col = 0; col<4; col++)
+            {
+                Console.Write(createdDF[row,col] + " "); 
+            }
+            Console.WriteLine();
+        }
+
+    
+}
+
+FillSpiralArray();
+*/
