@@ -274,7 +274,7 @@ void Print3DDF (int [,,] dataFrame3D)
 // Задача 62. Напишите программу, которая заполнит спирально массив 4*4.
 
 
-
+/*
 void FillSpiralArray ()
 {
     int [,] createdDF = new int[4,4];
@@ -327,3 +327,4 @@ void FillSpiralArray ()
 }
 
 FillSpiralArray();
+*/
