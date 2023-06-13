@@ -1,0 +1,5 @@
+{
+    "search.useIgnoreFiles": false,
+    "search.useParentIgnoreFiles": false,
+    "explorer.excludeGitIgnore": true
+}
